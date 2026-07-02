@@ -1,1 +1,1330 @@
-[]
+[
+    {
+        "id": "1f577dd71772830e",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fca1b16516868aa0",
+        "type": "tab",
+        "label": "Flow_MB2_PLC01_Robot",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "27acb63367bbf3dd",
+        "type": "s7 endpoint",
+        "z": "fca1b16516868aa0",
+        "transport": "iso-on-tcp",
+        "address": "192.168.0.13",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": 2,
+        "cycletime": 1000,
+        "timeout": 2000,
+        "name": "",
+        "vartable": [
+            {
+                "addr": "DB6200,DINT124",
+                "name": "1_MB110RB01_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT148",
+                "name": "1_MB110RB01_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT150",
+                "name": "1_MB110RB01_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT162",
+                "name": "1_MB110RB01_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT92",
+                "name": "1_MB110RB01_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT124",
+                "name": "1_MB110RB01_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT148",
+                "name": "1_MB110RB01_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT150",
+                "name": "1_MB110RB01_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT164",
+                "name": "1_MB110RB01_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT94",
+                "name": "1_MB110RB01_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT216",
+                "name": "2_MB110RB02_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT240",
+                "name": "2_MB110RB02_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT242",
+                "name": "2_MB110RB02_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT254",
+                "name": "2_MB110RB02_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT184",
+                "name": "2_MB110RB02_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT216",
+                "name": "2_MB110RB02_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT240",
+                "name": "2_MB110RB02_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT242",
+                "name": "2_MB110RB02_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT256",
+                "name": "2_MB110RB02_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT186",
+                "name": "2_MB110RB02_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT308",
+                "name": "3_MB110RB03_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT332",
+                "name": "3_MB110RB03_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT334",
+                "name": "3_MB110RB03_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT346",
+                "name": "3_MB110RB03_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT276",
+                "name": "3_MB110RB03_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT308",
+                "name": "3_MB110RB03_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT332",
+                "name": "3_MB110RB03_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT334",
+                "name": "3_MB110RB03_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT348",
+                "name": "3_MB110RB03_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT278",
+                "name": "3_MB110RB03_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT400",
+                "name": "4_MB110RB04_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT424",
+                "name": "4_MB110RB04_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT426",
+                "name": "4_MB110RB04_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT438",
+                "name": "4_MB110RB04_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT368",
+                "name": "4_MB110RB04_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT400",
+                "name": "4_MB110RB04_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT424",
+                "name": "4_MB110RB04_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT426",
+                "name": "4_MB110RB04_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT440",
+                "name": "4_MB110RB04_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT370",
+                "name": "4_MB110RB04_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT492",
+                "name": "5_MB120RB01_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT516",
+                "name": "5_MB120RB01_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT518",
+                "name": "5_MB120RB01_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT530",
+                "name": "5_MB120RB01_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT460",
+                "name": "5_MB120RB01_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT492",
+                "name": "5_MB120RB01_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT516",
+                "name": "5_MB120RB01_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT518",
+                "name": "5_MB120RB01_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT532",
+                "name": "5_MB120RB01_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT462",
+                "name": "5_MB120RB01_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT584",
+                "name": "6_MB120RB02_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT608",
+                "name": "6_MB120RB02_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT610",
+                "name": "6_MB120RB02_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT622",
+                "name": "6_MB120RB02_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT552",
+                "name": "6_MB120RB02_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT584",
+                "name": "6_MB120RB02_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT608",
+                "name": "6_MB120RB02_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT610",
+                "name": "6_MB120RB02_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT624",
+                "name": "6_MB120RB02_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT554",
+                "name": "6_MB120RB02_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT676",
+                "name": "7_MB120RB03_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT700",
+                "name": "7_MB120RB03_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT702",
+                "name": "7_MB120RB03_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT714",
+                "name": "7_MB120RB03_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT644",
+                "name": "7_MB120RB03_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT676",
+                "name": "7_MB120RB03_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT700",
+                "name": "7_MB120RB03_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT702",
+                "name": "7_MB120RB03_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT716",
+                "name": "7_MB120RB03_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT646",
+                "name": "7_MB120RB03_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT768",
+                "name": "8_MB120RB04_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT792",
+                "name": "8_MB120RB04_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT794",
+                "name": "8_MB120RB04_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT806",
+                "name": "8_MB120RB04_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT736",
+                "name": "8_MB120RB04_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT768",
+                "name": "8_MB120RB04_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT792",
+                "name": "8_MB120RB04_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT794",
+                "name": "8_MB120RB04_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT808",
+                "name": "8_MB120RB04_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT738",
+                "name": "8_MB120RB04_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT860",
+                "name": "9_MB120RB05_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT884",
+                "name": "9_MB120RB05_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT886",
+                "name": "9_MB120RB05_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT898",
+                "name": "9_MB120RB05_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT828",
+                "name": "9_MB120RB05_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT860",
+                "name": "9_MB120RB05_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT884",
+                "name": "9_MB120RB05_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT886",
+                "name": "9_MB120RB05_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT900",
+                "name": "9_MB120RB05_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT830",
+                "name": "9_MB120RB05_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT952",
+                "name": "10_MB120RB06_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT976",
+                "name": "10_MB120RB06_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT978",
+                "name": "10_MB120RB06_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT990",
+                "name": "10_MB120RB06_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT920",
+                "name": "10_MB120RB06_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT952",
+                "name": "10_MB120RB06_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT976",
+                "name": "10_MB120RB06_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT978",
+                "name": "10_MB120RB06_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT992",
+                "name": "10_MB120RB06_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT922",
+                "name": "10_MB120RB06_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1044",
+                "name": "11_MB130RB01_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1068",
+                "name": "11_MB130RB01_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT1070",
+                "name": "11_MB130RB01_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1082",
+                "name": "11_MB130RB01_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1012",
+                "name": "11_MB130RB01_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1044",
+                "name": "11_MB130RB01_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1068",
+                "name": "11_MB130RB01_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT1070",
+                "name": "11_MB130RB01_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1084",
+                "name": "11_MB130RB01_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1014",
+                "name": "11_MB130RB01_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1136",
+                "name": "12_MB130RB02_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1160",
+                "name": "12_MB130RB02_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT1162",
+                "name": "12_MB130RB02_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1174",
+                "name": "12_MB130RB02_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1104",
+                "name": "12_MB130RB02_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1136",
+                "name": "12_MB130RB02_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1160",
+                "name": "12_MB130RB02_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT1162",
+                "name": "12_MB130RB02_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1176",
+                "name": "12_MB130RB02_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1106",
+                "name": "12_MB130RB02_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1228",
+                "name": "13_MB140RB01_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1252",
+                "name": "13_MB140RB01_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT1254",
+                "name": "13_MB140RB01_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1266",
+                "name": "13_MB140RB01_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1196",
+                "name": "13_MB140RB01_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1228",
+                "name": "13_MB140RB01_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1252",
+                "name": "13_MB140RB01_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT1254",
+                "name": "13_MB140RB01_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1268",
+                "name": "13_MB140RB01_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1198",
+                "name": "13_MB140RB01_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1320",
+                "name": "14_MB140RB02_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1344",
+                "name": "14_MB140RB02_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT1346",
+                "name": "14_MB140RB02_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1358",
+                "name": "14_MB140RB02_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1288",
+                "name": "14_MB140RB02_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1320",
+                "name": "14_MB140RB02_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1344",
+                "name": "14_MB140RB02_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT1346",
+                "name": "14_MB140RB02_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1360",
+                "name": "14_MB140RB02_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1290",
+                "name": "14_MB140RB02_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1412",
+                "name": "15_MB140RB03_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1436",
+                "name": "15_MB140RB03_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT1438",
+                "name": "15_MB140RB03_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1450",
+                "name": "15_MB140RB03_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1380",
+                "name": "15_MB140RB03_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1412",
+                "name": "15_MB140RB03_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1436",
+                "name": "15_MB140RB03_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT1438",
+                "name": "15_MB140RB03_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1452",
+                "name": "15_MB140RB03_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1382",
+                "name": "15_MB140RB03_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1504",
+                "name": "16_MB140RB04_G1_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1528",
+                "name": "16_MB140RB04_G1_Variant"
+            },
+            {
+                "addr": "DB6200,INT1530",
+                "name": "16_MB140RB04_G1_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1542",
+                "name": "16_MB140RB04_G1_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1472",
+                "name": "16_MB140RB04_G1_SpotActual"
+            },
+            {
+                "addr": "DB6200,DINT1504",
+                "name": "16_MB140RB04_G2_BiwNo"
+            },
+            {
+                "addr": "DB6200,INT1528",
+                "name": "16_MB140RB04_G2_Variant"
+            },
+            {
+                "addr": "DB6200,INT1530",
+                "name": "16_MB140RB04_G2_Sub-Variant"
+            },
+            {
+                "addr": "DB6200,INT1544",
+                "name": "16_MB140RB04_G2_SpotTarget"
+            },
+            {
+                "addr": "DB6200,INT1474",
+                "name": "16_MB140RB04_G2_SpotActual"
+            },
+            {
+                "addr": "DB6200,B182",
+                "name": "1_MB110RB01_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X183.0",
+                "name": "1_MB110RB01_Battery"
+            },
+            {
+                "addr": "DB6200,B274",
+                "name": "2_MB110RB02_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X275.0",
+                "name": "2_MB110RB02_Battery"
+            },
+            {
+                "addr": "DB6200,B366",
+                "name": "3_MB110RB03_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X367.0",
+                "name": "3_MB110RB03_Battery"
+            },
+            {
+                "addr": "DB6200,B458",
+                "name": "4_MB110RB04_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X459.0",
+                "name": "4_MB110RB04_Battery"
+            },
+            {
+                "addr": "DB6200,B550",
+                "name": "5_MB120RB01_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X551.0",
+                "name": "5_MB120RB01_Battery"
+            },
+            {
+                "addr": "DB6200,B642",
+                "name": "6_MB120RB02_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X643.0",
+                "name": "6_MB120RB02_Battery"
+            },
+            {
+                "addr": "DB6200,B734",
+                "name": "7_MB120RB03_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X735.0",
+                "name": "7_MB120RB03_Battery"
+            },
+            {
+                "addr": "DB6200,B826",
+                "name": "8_MB120RB04_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X827.0",
+                "name": "8_MB120RB04_Battery"
+            },
+            {
+                "addr": "DB6200,B918",
+                "name": "9_MB120RB05_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X919.0",
+                "name": "9_MB120RB05_Battery"
+            },
+            {
+                "addr": "DB6200,B1010",
+                "name": "10_MB120RB06_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1011.0",
+                "name": "10_MB120RB06_Battery"
+            },
+            {
+                "addr": "DB6200,B1102",
+                "name": "11_MB130RB01_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1103.0",
+                "name": "11_MB130RB01_Battery"
+            },
+            {
+                "addr": "DB6200,B1194",
+                "name": "12_MB130RB02_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1195.0",
+                "name": "12_MB130RB02_Battery"
+            },
+            {
+                "addr": "DB6200,B1286",
+                "name": "13_MB140RB01_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1287.0",
+                "name": "13_MB140RB01_Battery"
+            },
+            {
+                "addr": "DB6200,B1378",
+                "name": "14_MB140RB02_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1379.0",
+                "name": "14_MB140RB02_Battery"
+            },
+            {
+                "addr": "DB6200,B1470",
+                "name": "15_MB140RB03_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1471.0",
+                "name": "15_MB140RB03_Battery"
+            },
+            {
+                "addr": "DB6200,B1562",
+                "name": "16_MB140RB04_HealthStatus"
+            },
+            {
+                "addr": "DB6200,X1563.0",
+                "name": "16_MB140RB04_Battery"
+            },
+            {
+                "addr": "DB6200,INT100",
+                "name": "1_MB110RB01_G1_A"
+            },
+            {
+                "addr": "DB6200,INT102",
+                "name": "1_MB110RB01_G2_A"
+            },
+            {
+                "addr": "DB6200,INT108",
+                "name": "1_MB110RB01_G1_B"
+            },
+            {
+                "addr": "DB6200,INT110",
+                "name": "1_MB110RB01_G2_B"
+            },
+            {
+                "addr": "DB6200,INT116",
+                "name": "1_MB110RB01_G1_C"
+            },
+            {
+                "addr": "DB6200,INT118",
+                "name": "1_MB110RB01_G2_C"
+            },
+            {
+                "addr": "DB6200,INT192",
+                "name": "2_MB110RB02_G1_A"
+            },
+            {
+                "addr": "DB6200,INT194",
+                "name": "2_MB110RB02_G2_A"
+            },
+            {
+                "addr": "DB6200,INT200",
+                "name": "2_MB110RB02_G1_B"
+            },
+            {
+                "addr": "DB6200,INT202",
+                "name": "2_MB110RB02_G2_B"
+            },
+            {
+                "addr": "DB6200,INT208",
+                "name": "2_MB110RB02_G1_C"
+            },
+            {
+                "addr": "DB6200,INT210",
+                "name": "2_MB110RB02_G2_C"
+            },
+            {
+                "addr": "DB6200,INT284",
+                "name": "3_MB110RB03_G1_A"
+            },
+            {
+                "addr": "DB6200,INT286",
+                "name": "3_MB110RB03_G2_A"
+            },
+            {
+                "addr": "DB6200,INT292",
+                "name": "3_MB110RB03_G1_B"
+            },
+            {
+                "addr": "DB6200,INT294",
+                "name": "3_MB110RB03_G2_B"
+            },
+            {
+                "addr": "DB6200,INT300",
+                "name": "3_MB110RB03_G1_C"
+            },
+            {
+                "addr": "DB6200,INT302",
+                "name": "3_MB110RB03_G2_C"
+            },
+            {
+                "addr": "DB6200,INT376",
+                "name": "4_MB110RB04_G1_A"
+            },
+            {
+                "addr": "DB6200,INT378",
+                "name": "4_MB110RB04_G2_A"
+            },
+            {
+                "addr": "DB6200,INT384",
+                "name": "4_MB110RB04_G1_B"
+            },
+            {
+                "addr": "DB6200,INT386",
+                "name": "4_MB110RB04_G2_B"
+            },
+            {
+                "addr": "DB6200,INT392",
+                "name": "4_MB110RB04_G1_C"
+            },
+            {
+                "addr": "DB6200,INT394",
+                "name": "4_MB110RB04_G2_C"
+            },
+            {
+                "addr": "DB6200,INT468",
+                "name": "5_MB120RB01_G1_A"
+            },
+            {
+                "addr": "DB6200,INT470",
+                "name": "5_MB120RB01_G2_A"
+            },
+            {
+                "addr": "DB6200,INT476",
+                "name": "5_MB120RB01_G1_B"
+            },
+            {
+                "addr": "DB6200,INT478",
+                "name": "5_MB120RB01_G2_B"
+            },
+            {
+                "addr": "DB6200,INT484",
+                "name": "5_MB120RB01_G1_C"
+            },
+            {
+                "addr": "DB6200,INT486",
+                "name": "5_MB120RB01_G2_C"
+            },
+            {
+                "addr": "DB6200,INT560",
+                "name": "6_MB120RB02_G1_A"
+            },
+            {
+                "addr": "DB6200,INT562",
+                "name": "6_MB120RB02_G2_A"
+            },
+            {
+                "addr": "DB6200,INT568",
+                "name": "6_MB120RB02_G1_B"
+            },
+            {
+                "addr": "DB6200,INT570",
+                "name": "6_MB120RB02_G2_B"
+            },
+            {
+                "addr": "DB6200,INT576",
+                "name": "6_MB120RB02_G1_C"
+            },
+            {
+                "addr": "DB6200,INT578",
+                "name": "6_MB120RB02_G2_C"
+            },
+            {
+                "addr": "DB6200,INT652",
+                "name": "7_MB120RB03_G1_A"
+            },
+            {
+                "addr": "DB6200,INT654",
+                "name": "7_MB120RB03_G2_A"
+            },
+            {
+                "addr": "DB6200,INT660",
+                "name": "7_MB120RB03_G1_B"
+            },
+            {
+                "addr": "DB6200,INT662",
+                "name": "7_MB120RB03_G2_B"
+            },
+            {
+                "addr": "DB6200,INT668",
+                "name": "7_MB120RB03_G1_C"
+            },
+            {
+                "addr": "DB6200,INT670",
+                "name": "7_MB120RB03_G2_C"
+            },
+            {
+                "addr": "DB6200,INT744",
+                "name": "8_MB120RB04_G1_A"
+            },
+            {
+                "addr": "DB6200,INT746",
+                "name": "8_MB120RB04_G2_A"
+            },
+            {
+                "addr": "DB6200,INT752",
+                "name": "8_MB120RB04_G1_B"
+            },
+            {
+                "addr": "DB6200,INT754",
+                "name": "8_MB120RB04_G2_B"
+            },
+            {
+                "addr": "DB6200,INT760",
+                "name": "8_MB120RB04_G1_C"
+            },
+            {
+                "addr": "DB6200,INT762",
+                "name": "8_MB120RB04_G2_C"
+            },
+            {
+                "addr": "DB6200,INT836",
+                "name": "9_MB120RB05_G1_A"
+            },
+            {
+                "addr": "DB6200,INT838",
+                "name": "9_MB120RB05_G2_A"
+            },
+            {
+                "addr": "DB6200,INT844",
+                "name": "9_MB120RB05_G1_B"
+            },
+            {
+                "addr": "DB6200,INT846",
+                "name": "9_MB120RB05_G2_B"
+            },
+            {
+                "addr": "DB6200,INT852",
+                "name": "9_MB120RB05_G1_C"
+            },
+            {
+                "addr": "DB6200,INT854",
+                "name": "9_MB120RB05_G2_C"
+            },
+            {
+                "addr": "DB6200,INT928",
+                "name": "10_MB120RB06_G1_A"
+            },
+            {
+                "addr": "DB6200,INT930",
+                "name": "10_MB120RB06_G2_A"
+            },
+            {
+                "addr": "DB6200,INT936",
+                "name": "10_MB120RB06_G1_B"
+            },
+            {
+                "addr": "DB6200,INT938",
+                "name": "10_MB120RB06_G2_B"
+            },
+            {
+                "addr": "DB6200,INT944",
+                "name": "10_MB120RB06_G1_C"
+            },
+            {
+                "addr": "DB6200,INT946",
+                "name": "10_MB120RB06_G2_C"
+            },
+            {
+                "addr": "DB6200,INT1020",
+                "name": "11_MB130RB01_G1_A"
+            },
+            {
+                "addr": "DB6200,INT1022",
+                "name": "11_MB130RB01_G2_A"
+            },
+            {
+                "addr": "DB6200,INT1028",
+                "name": "11_MB130RB01_G1_B"
+            },
+            {
+                "addr": "DB6200,INT1030",
+                "name": "11_MB130RB01_G2_B"
+            },
+            {
+                "addr": "DB6200,INT1036",
+                "name": "11_MB130RB01_G1_C"
+            },
+            {
+                "addr": "DB6200,INT1038",
+                "name": "11_MB130RB01_G2_C"
+            },
+            {
+                "addr": "DB6200,INT1112",
+                "name": "12_MB130RB02_G1_A"
+            },
+            {
+                "addr": "DB6200,INT1114",
+                "name": "12_MB130RB02_G2_A"
+            },
+            {
+                "addr": "DB6200,INT1120",
+                "name": "12_MB130RB02_G1_B"
+            },
+            {
+                "addr": "DB6200,INT1122",
+                "name": "12_MB130RB02_G2_B"
+            },
+            {
+                "addr": "DB6200,INT1128",
+                "name": "12_MB130RB02_G1_C"
+            },
+            {
+                "addr": "DB6200,INT1130",
+                "name": "12_MB130RB02_G2_C"
+            },
+            {
+                "addr": "DB6200,INT1204",
+                "name": "13_MB140RB01_G1_A"
+            },
+            {
+                "addr": "DB6200,INT1206",
+                "name": "13_MB140RB01_G2_A"
+            },
+            {
+                "addr": "DB6200,INT1212",
+                "name": "13_MB140RB01_G1_B"
+            },
+            {
+                "addr": "DB6200,INT1214",
+                "name": "13_MB140RB01_G2_B"
+            },
+            {
+                "addr": "DB6200,INT1220",
+                "name": "13_MB140RB01_G1_C"
+            },
+            {
+                "addr": "DB6200,INT1222",
+                "name": "13_MB140RB01_G2_C"
+            },
+            {
+                "addr": "DB6200,INT1296",
+                "name": "14_MB140RB02_G1_A"
+            },
+            {
+                "addr": "DB6200,INT1298",
+                "name": "14_MB140RB02_G2_A"
+            },
+            {
+                "addr": "DB6200,INT1304",
+                "name": "14_MB140RB02_G1_B"
+            },
+            {
+                "addr": "DB6200,INT1306",
+                "name": "14_MB140RB02_G2_B"
+            },
+            {
+                "addr": "DB6200,INT1312",
+                "name": "14_MB140RB02_G1_C"
+            },
+            {
+                "addr": "DB6200,INT1314",
+                "name": "14_MB140RB02_G2_C"
+            },
+            {
+                "addr": "DB6200,INT1388",
+                "name": "15_MB140RB03_G1_A"
+            },
+            {
+                "addr": "DB6200,INT1390",
+                "name": "15_MB140RB03_G2_A"
+            },
+            {
+                "addr": "DB6200,INT1396",
+                "name": "15_MB140RB03_G1_B"
+            },
+            {
+                "addr": "DB6200,INT1398",
+                "name": "15_MB140RB03_G2_B"
+            },
+            {
+                "addr": "DB6200,INT1404",
+                "name": "15_MB140RB03_G1_C"
+            },
+            {
+                "addr": "DB6200,INT1406",
+                "name": "15_MB140RB03_G2_C"
+            },
+            {
+                "addr": "DB6200,INT1480",
+                "name": "16_MB140RB04_G1_A"
+            },
+            {
+                "addr": "DB6200,INT1482",
+                "name": "16_MB140RB04_G2_A"
+            },
+            {
+                "addr": "DB6200,INT1488",
+                "name": "16_MB140RB04_G1_B"
+            },
+            {
+                "addr": "DB6200,INT1490",
+                "name": "16_MB140RB04_G2_B"
+            },
+            {
+                "addr": "DB6200,INT1496",
+                "name": "16_MB140RB04_G1_C"
+            },
+            {
+                "addr": "DB6200,INT1498",
+                "name": "16_MB140RB04_G2_C"
+            }
+        ]
+    },
+    {
+        "id": "f089050a86e90d4a",
+        "type": "MSSQL-CN",
+        "tdsVersion": "7_4",
+        "name": "DESKTOP-3I2E5NT",
+        "server": "127.0.0.1",
+        "port": "1433",
+        "encyption": false,
+        "trustServerCertificate": false,
+        "database": "DB_Reporting_JSW_New",
+        "useUTC": false,
+        "connectTimeout": "15000",
+        "requestTimeout": "15000",
+        "cancelTimeout": "5000",
+        "pool": "5",
+        "parseJSON": false,
+        "enableArithAbort": true,
+        "readOnlyIntent": false
+    },
+    {
+        "id": "7f7317486104ce79",
+        "type": "s7 in",
+        "z": "fca1b16516868aa0",
+        "endpoint": "27acb63367bbf3dd",
+        "mode": "all",
+        "variable": "",
+        "diff": true,
+        "name": "PLC01_Robot_Event",
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "805137173fbb82a3",
+                "e7f2fb3cb42b2046",
+                "7e7d44dbbe7c2cf4"
+            ]
+        ]
+    },
+    {
+        "id": "7e7d44dbbe7c2cf4",
+        "type": "function",
+        "z": "fca1b16516868aa0",
+        "name": "Robot_SpotCount_Function",
+        "func": "\n//With JSON\nlet lastActualData = flow.get(\"LastRobotBiw\") || {};\n\nlet input = msg.payload;\n//\nlet robotBiwArrays = [\n    \"1_MB110RB01_G1_BiwNo\",\n    \"2_MB110RB02_G1_BiwNo\",\n    \"3_MB110RB03_G1_BiwNo\",\n    \"4_MB110RB04_G1_BiwNo\",\n\n    \"5_MB120RB01_G1_BiwNo\",\n    \"6_MB120RB02_G1_BiwNo\",\n    \"7_MB120RB03_G1_BiwNo\",\n    \"8_MB120RB04_G1_BiwNo\",\n    \"9_MB120RB05_G1_BiwNo\",\n    \"10_MB120RB06_G1_BiwNo\",\n\n    \"11_MB130RB01_G1_BiwNo\",\n    \"12_MB130RB02_G1_BiwNo\",\n\n    \"13_MB140RB01_G1_BiwNo\",\n    \"14_MB140RB02_G1_BiwNo\",\n    \"15_MB140RB03_G1_BiwNo\",\n    \"16_MB140RB04_G1_BiwNo\"\n];\n\nlet records = [];\n\nfor (let key of robotBiwArrays) {\n\n\n    let parts = key.split(\"_\");\n   \n    if (parts[3] == \"BiwNo\") {\n       \n        let value = input[key];\n  \n        if (value <= 0) {\n            continue;\n        }\n        \n        if (!(key in lastActualData) || lastActualData[key] !== value) {\n\n        let robotId = parts[0];\n        \n        let robotName = parts[1];\n\n        let gunId = 1; //since only one gun key is available\n        \n        let _BiwNo = input[robotId + \"_\" + robotName + \"_\" + \"G1\" + \"_\" + \"BiwNo\"];\n        let _Variant = input[robotId + \"_\" + robotName + \"_\" + \"G1\" + \"_\" + \"Variant\"];\n\n            let _SubVariant = input[robotId + \"_\" + robotName + \"_\" + \"G1\" + \"_\" + \"Sub-Variant\"];\n\n            let _SpotTarget = input[robotId + \"_\" + robotName + \"_\" + \"G1\" + \"_\" + \"SpotTarget\"];\n      \n            let _SpotActual = input[robotId + \"_\" + robotName + \"_\" + \"G1\" + \"_\" + \"SpotActual\"];\n\n        //same goes to gun 2\n        //#region\n            //let _BiwNoG2 = input[robotId + \"_\" + robotName + \"_\" + \"G2\" + \"_\" + \"BiwNo\"];\n            //let _VariantG2 = input[robotId + \"_\" + robotName + \"_\" + \"G2\" + \"_\" + \"Variant\"];\n\n            //let _SubVariantG2 = input[robotId + \"_\" + robotName + \"_\" + \"G2\" + \"_\" + \"Sub-Variant\"];\n\n            let _SpotTargetG2 = input[robotId + \"_\" + robotName + \"_\" + \"G2\" + \"_\" + \"SpotTarget\"];\n\n            let _SpotActualG2 = input[robotId + \"_\" + robotName + \"_\" + \"G2\" + \"_\" + \"SpotActual\"];\n        //#endregion \n\n\n        // if (!(key in lastActualData) || lastActualData[key] !== value) {\n            \n           \n            lastActualData[key] = value;\n\n            records.push({\n                RobotID: parseInt(robotId),\n                GunID: parseInt(gunId),\n                Biwno: _BiwNo,\n                Varraint: _Variant,\n                SubVarraint: _SubVariant,\n\n                Target: _SpotTarget,\n                Actual: _SpotActual,\n\n                Timestamp: toSqlDate(new Date())\n},\n{\n    RobotID: parseInt(robotId),\n    GunID: 2,\n    Biwno: _BiwNo,\n    Varraint: _Variant,\n    SubVarraint: _SubVariant,\n\n    Target: _SpotTargetG2,\n    Actual: _SpotActualG2,\n\n    Timestamp: toSqlDate(new Date())\n});\n\n        }\n    }\n}\n////\n//node.warn(JSON.stringify(records, null, 2));\n\n// ✅ send ONE JSON instead of multiple queries\nif (records.length > 0) {\n    node.warn(\"inside dump\");\n    flow.set(\"LastRobotBiw\", lastActualData);\n    msg.procedure = \"SP_Insert_Rbt_SpotCount\";\n    msg.payload = JSON.stringify(records);\n\n    return msg;\n}\n\nflow.set(\"LastRobotBiw\", lastActualData);\nreturn records;\n\n\nfunction toSqlDate(date) {\n\n    let d = new Date(date);\n\n    let yyyy = d.getFullYear();\n    let MM = String(d.getMonth() + 1).padStart(2, '0');\n    let dd = String(d.getDate()).padStart(2, '0');\n\n    let hh = String(d.getHours()).padStart(2, '0');\n    let mm = String(d.getMinutes()).padStart(2, '0');\n    let ss = String(d.getSeconds()).padStart(2, '0');\n\n    return `${yyyy}-${MM}-${dd} ${hh}:${mm}:${ss}`;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 300,
+        "wires": [
+            [
+                "0d3d623e2cd9e47a"
+            ]
+        ]
+    },
+    {
+        "id": "e7f2fb3cb42b2046",
+        "type": "function",
+        "z": "fca1b16516868aa0",
+        "name": "Robot_TipChange_Function",
+        "func": "\n//With JSON\nlet lastActualData = flow.get(\"LastRobotTipChange\") || {};\n\nlet input = msg.payload;\n\nlet robotTipChangeArrays = [\n    \"1_MB110RB01_G1_A\", \"1_MB110RB01_G2_A\", \"1_MB110RB01_G1_B\", \"1_MB110RB01_G2_B\", \"1_MB110RB01_G1_C\", \"1_MB110RB01_G2_C\",\n    \"2_MB110RB02_G1_A\", \"2_MB110RB02_G2_A\", \"2_MB110RB02_G1_B\", \"2_MB110RB02_G2_B\", \"2_MB110RB02_G1_C\", \"2_MB110RB02_G2_C\",\n    \"3_MB110RB03_G1_A\", \"3_MB110RB03_G2_A\", \"3_MB110RB03_G1_B\", \"3_MB110RB03_G2_B\", \"3_MB110RB03_G1_C\", \"3_MB110RB03_G2_C\",\n    \"4_MB110RB04_G1_A\", \"4_MB110RB04_G2_A\", \"4_MB110RB04_G1_B\", \"4_MB110RB04_G2_B\", \"4_MB110RB04_G1_C\", \"4_MB110RB04_G2_C\",\n\n    \"5_MB120RB01_G1_A\", \"5_MB120RB01_G2_A\", \"5_MB120RB01_G1_B\", \"5_MB120RB01_G2_B\", \"5_MB120RB01_G1_C\", \"5_MB120RB01_G2_C\",\n    \"6_MB120RB02_G1_A\", \"6_MB120RB02_G2_A\", \"6_MB120RB02_G1_B\", \"6_MB120RB02_G2_B\", \"6_MB120RB02_G1_C\", \"6_MB120RB02_G2_C\",\n    \"7_MB120RB03_G1_A\", \"7_MB120RB03_G2_A\", \"7_MB120RB03_G1_B\", \"7_MB120RB03_G2_B\", \"7_MB120RB03_G1_C\", \"7_MB120RB03_G2_C\",\n    \"8_MB120RB04_G1_A\", \"8_MB120RB04_G2_A\", \"8_MB120RB04_G1_B\", \"8_MB120RB04_G2_B\", \"8_MB120RB04_G1_C\", \"8_MB120RB04_G2_C\",\n    \"9_MB120RB05_G1_A\", \"9_MB120RB05_G2_A\", \"9_MB120RB05_G1_B\", \"9_MB120RB05_G2_B\", \"9_MB120RB05_G1_C\", \"9_MB120RB05_G2_C\",\n    \"10_MB120RB06_G1_A\", \"10_MB120RB06_G2_A\", \"10_MB120RB06_G1_B\", \"10_MB120RB06_G2_B\", \"10_MB120RB06_G1_C\", \"10_MB120RB06_G2_C\",\n\n    \"11_MB130RB01_G1_A\", \"11_MB130RB01_G2_A\", \"11_MB130RB01_G1_B\", \"11_MB130RB01_G2_B\", \"11_MB130RB01_G1_C\", \"11_MB130RB01_G2_C\",\n    \"12_MB130RB02_G1_A\", \"12_MB130RB02_G2_A\", \"12_MB130RB02_G1_B\", \"12_MB130RB02_G2_B\", \"12_MB130RB02_G1_C\", \"12_MB130RB02_G2_C\",\n\n    \"13_MB140RB01_G1_A\", \"13_MB140RB01_G2_A\", \"13_MB140RB01_G1_B\", \"13_MB140RB01_G2_B\", \"13_MB140RB01_G1_C\", \"13_MB140RB01_G2_C\",\n    \"14_MB140RB02_G1_A\", \"14_MB140RB02_G2_A\", \"14_MB140RB02_G1_B\", \"14_MB140RB02_G2_B\", \"14_MB140RB02_G1_C\", \"14_MB140RB02_G2_C\",\n    \"15_MB140RB03_G1_A\", \"15_MB140RB03_G2_A\", \"15_MB140RB03_G1_B\", \"15_MB140RB03_G2_B\", \"15_MB140RB03_G1_C\", \"15_MB140RB03_G2_C\",\n    \"16_MB140RB04_G1_A\", \"16_MB140RB04_G2_A\", \"16_MB140RB04_G1_B\", \"16_MB140RB04_G2_B\", \"16_MB140RB04_G1_C\", \"16_MB140RB04_G2_C\"\n];\n\nlet records = [];\n\nfor (let key of robotTipChangeArrays) {\n\n\n    let parts = key.split(\"_\");\n   \n    {\n       \n        let value = input[key];\n  \n        if (value <= 0) {\n            continue;\n        }\n\n        if (!(key in lastActualData) || lastActualData[key] !== value) {\n\n        //11_MB130RB01_G1_A\n        let robotId = parts[0];\n        let robotName = parts[1];\n        let gunName = parts[2];\n        let shift = parts[3];\n        \n\n        let gunId = 1;\n\n        if(gunName == \"G2\") {\n            gunId = 2;\n        }\n        \n        // \"16_MB140RB04_G1_BiwNo\"\n        let _Value = input[robotId + \"_\" + robotName + \"_\" + gunName + \"_\" + shift];\n        \n\n        // if (!(key in lastActualData) || lastActualData[key] !== value) {\n            \n          \n            lastActualData[key] = value;\n\n\n          \n            records.push({\n                RobotID: parseInt(robotId),\n                GunID: parseInt(gunId),\n                Shift: shift,\n                Value: _Value,\n\n                Timstamp: toSqlDate(new Date())\n});\n\n        }\n    }\n}\n////\n//node.warn(JSON.stringify(records, null, 2));\n\n// ✅ send ONE JSON instead of multiple queries\nif (records.length > 0) {\n    node.warn(\"inside dump\");\n    flow.set(\"LastRobotTipChange\", lastActualData);\n    msg.procedure = \"SP_Insert_Rbt_TipChangeCount\";\n    msg.payload = JSON.stringify(records);\n\n    return msg;\n}\n\nflow.set(\"LastRobotTipChange\", lastActualData);\nreturn records;\n\n\nfunction toSqlDate(date) {\n\n    let d = new Date(date);\n\n    let yyyy = d.getFullYear();\n    let MM = String(d.getMonth() + 1).padStart(2, '0');\n    let dd = String(d.getDate()).padStart(2, '0');\n\n    let hh = String(d.getHours()).padStart(2, '0');\n    let mm = String(d.getMinutes()).padStart(2, '0');\n    let ss = String(d.getSeconds()).padStart(2, '0');\n\n    return `${yyyy}-${MM}-${dd} ${hh}:${mm}:${ss}`;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 540,
+        "y": 240,
+        "wires": [
+            [
+                "0d3d623e2cd9e47a"
+            ]
+        ]
+    },
+    {
+        "id": "805137173fbb82a3",
+        "type": "function",
+        "z": "fca1b16516868aa0",
+        "name": "Robot_Status_Function",
+        "func": "\n//With JSON\nlet lastActualData = flow.get(\"LastRobotStatusChange\") || {};\n\nlet input = msg.payload;\n\nlet robotStatusArrays = [\n    \"1_MB110RB01_HealthStatus\", \"1_MB110RB01_Battery\",\n    \"2_MB110RB02_HealthStatus\", \"2_MB110RB02_Battery\",\n    \"3_MB110RB03_HealthStatus\", \"3_MB110RB03_Battery\",\n    \"4_MB110RB04_HealthStatus\", \"4_MB110RB04_Battery\",\n    \"5_MB120RB01_HealthStatus\", \"5_MB120RB01_Battery\",\n    \"6_MB120RB02_HealthStatus\", \"6_MB120RB02_Battery\",\n    \"7_MB120RB03_HealthStatus\", \"7_MB120RB03_Battery\",\n    \"8_MB120RB04_HealthStatus\", \"8_MB120RB04_Battery\",\n    \"9_MB120RB05_HealthStatus\", \"9_MB120RB05_Battery\",\n    \"10_MB120RB06_HealthStatus\", \"10_MB120RB06_Battery\",\n    \"11_MB130RB01_HealthStatus\", \"11_MB130RB01_Battery\",\n    \"12_MB130RB02_HealthStatus\", \"12_MB130RB02_Battery\",\n    \"13_MB140RB01_HealthStatus\", \"13_MB140RB01_Battery\",\n    \"14_MB140RB02_HealthStatus\", \"14_MB140RB02_Battery\",\n    \"15_MB140RB03_HealthStatus\", \"15_MB140RB03_Battery\",\n    \"16_MB140RB04_HealthStatus\", \"16_MB140RB04_Battery\"\n];\n\n// \"1_MB110RB01_Idle\", \"1_MB110RB01_Active\", \"1_MB110RB01_Breakdown\", \"1_MB110RB01_Battery\"\n\nlet records = [];\n\nfor (let key of robotStatusArrays) {\n\n\n    let parts = key.split(\"_\");\n   \n    {\n       \n        let value = input[key];\n  \n        // if (value <= 0) {\n        //     continue;\n        // }\n\n        if (!(key in lastActualData) || lastActualData[key] !== value) {\n            \n        //1_MB110RB01_Idle\n        let robotId = parts[0];\n        let robotName = parts[1];\n        //let healthStatus = parts[2];\n    \n            let _HealthStatusValue = input[robotId + \"_\" + robotName + \"_\" + \"HealthStatus\"];\n    \n\n            let _BatteryStatus = input[robotId + \"_\" + robotName + \"_Battery\"];\n    \n\n\n        node.warn(\"Health: \"+ _HealthStatusValue);\n        node.warn(\"Battery stat: \"+ _BatteryStatus);\n\n        // if (!(key in lastActualData) || lastActualData[key] !== value) {\n            \n           \n            lastActualData[key] = value;\n\n\n          \n            records.push({\n                RobotID: parseInt(robotId),\n                HealthStatus: _HealthStatusValue,\n                BatteryStatus: _BatteryStatus,\n\n                Timestamp: toSqlDate(new Date())\n});\n\n        }\n    }\n}\n////\n//node.warn(JSON.stringify(records, null, 2));\n\n// ✅ send ONE JSON instead of multiple queries\nif (records.length > 0) {\n    node.warn(\"inside dump\");\n    flow.set(\"LastRobotStatusChange\", lastActualData);\n    msg.procedure = \"SP_Insert_Rbt_Status\";\n    msg.payload = JSON.stringify(records);\n\n    return msg;\n}\n\nflow.set(\"LastRobotStatusChange\", lastActualData);\nreturn records;\n\n\nfunction toSqlDate(date) {\n\n    let d = new Date(date);\n\n    let yyyy = d.getFullYear();\n    let MM = String(d.getMonth() + 1).padStart(2, '0');\n    let dd = String(d.getDate()).padStart(2, '0');\n\n    let hh = String(d.getHours()).padStart(2, '0');\n    let mm = String(d.getMinutes()).padStart(2, '0');\n    let ss = String(d.getSeconds()).padStart(2, '0');\n\n    return `${yyyy}-${MM}-${dd} ${hh}:${mm}:${ss}`;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "0d3d623e2cd9e47a"
+            ]
+        ]
+    },
+    {
+        "id": "0d3d623e2cd9e47a",
+        "type": "MSSQL",
+        "z": "fca1b16516868aa0",
+        "mssqlCN": "f089050a86e90d4a",
+        "name": "Json MSSQL",
+        "outField": "payload",
+        "returnType": 0,
+        "throwErrors": 1,
+        "query": "",
+        "modeOpt": "",
+        "modeOptType": "execute",
+        "queryOpt": "procedure",
+        "queryOptType": "msg",
+        "paramsOpt": "",
+        "paramsOptType": "editor",
+        "rows": "rows",
+        "rowsType": "msg",
+        "parseMustache": false,
+        "params": [
+            {
+                "output": false,
+                "name": "json",
+                "type": "NVarChar",
+                "valueType": "msg",
+                "value": "payload",
+                "options": {
+                    "nullable": true,
+                    "primary": false,
+                    "identity": false,
+                    "readOnly": false
+                }
+            }
+        ],
+        "x": 870,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    }
+]
